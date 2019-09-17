@@ -32,4 +32,4 @@ on the time of the day.
 
 ## Try it out
 
-This application is live at: https://samalty.github.io/weather-query-application/
+This application is live at: https://samalty.github.io/weather-query-app/
