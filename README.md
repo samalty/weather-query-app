@@ -14,8 +14,9 @@ weather conditions for the specified location. Upon submitting the request, rele
 information - including a description, temperature and humidity - is instantly returned to 
 the user interface.
 
-The app also presents the time and date, and has variable CSS features which change depending 
-on the time of the day.
+The app also presents the time and date, and uses JavaScript to trigger certain variable CSS 
+features, which alter the page backdrop depending on the time of the day and the weather 
+conditions in the specified location.
 
 ## Technologies used
 
