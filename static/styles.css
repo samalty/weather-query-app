@@ -1,0 +1,221 @@
+/* General */
+
+body{
+    background: -webkit-linear-gradient(#b3d7ff,#ffffff);
+    background: -moz-linear-gradient(#b3d7ff,#ffffff);
+    background: linear-gradient(#b3d7ff,#ffffff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.container{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.disable {
+    pointer-events: none;
+}
+.weather-div{
+    display: none;
+    margin: 25px;
+}
+.weather-desc{
+    text-transform: capitalize;
+}
+.info{
+    width: 400px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -200px;
+    z-index: 100;
+    animation: rise 1s linear, fadeIn .2s ease-in;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2){
+    .info{
+        width: 100vw;
+    }
+}
+
+@keyframes rise {
+    0%{
+        transform: translateY(500px);
+        animation-timing-function: ease-out;
+    }
+    60%{
+        transform: translateY(-50px);
+        animation-timing-function: ease-in;
+    }
+    80%{
+        transform: translateY(10px);
+        animation-timing-function: ease-out;
+    }
+    100%{
+        transform: translateY(0);
+        animation-timing-function: ease-in;
+    }
+}
+
+/* Text */
+
+h1, p{
+    text-align: center;
+    color: #1a1a1a;
+    font-family: 'Teko', sans-serif;
+}
+#weather-header{
+    font-family: 'Teko', sans-serif;
+}
+p{
+    font-size: 20px
+}
+#weather-header{
+    margin: 20px;
+}
+.city{
+    font-size: 28px;
+}
+#refresh{
+    animation: letters 0.5s ease-in both;
+}
+@keyframes letters {
+    from{
+        transform: rotateX(90deg);    
+    }
+    to{
+        transform: rotateX(0deg);
+    }
+}
+
+/* Weather icon */
+
+.border{
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.weather-img{
+    height: 80px;
+    width: 80px;
+}
+#img-container{
+    display: none;
+    margin: 25px;
+}
+
+/* Search bar */
+
+#searchLocation{
+    border: none;
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    outline: none;
+    width: 200px;
+    padding: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    background-color: #f2f2f2;
+}
+#button{
+    border: none;
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    outline: none;
+    width: 50px;
+    padding: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    background-color: #ffa64d;
+}
+#button:hover{
+    background-color: #ff8c1a;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.fa{
+    font-size: 20px;
+    color: #ffffff;
+}
+.search-box{
+    display: block;
+}
+
+/* Clock */
+
+#time{
+    height: 70px;
+    width: 105px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding-top: 8px;
+    background: -webkit-linear-gradient(#ffffff,#e6e6e6);
+    background: -moz-linear-gradient(#ffffff,#e6e6e6);
+    background: linear-gradient(#ffffff,#e6e6e6);
+}
+
+/* Clouds */
+
+.cloud-container{
+    display: flex;
+}
+
+.clouds{
+    width: auto;
+    height: 70vh;
+    opacity: 0.2;
+    display: flex;
+    animation: appear 2s linear, drift 60s linear infinite;
+}
+.clouds2{
+    width: auto;
+    height: 40vh;
+    opacity: 0.2;
+    display: flex;
+    top: 10;
+    animation: appear 2s linear, drift2 75s linear infinite;
+}
+
+.disappear{
+    display: none;
+}
+
+@keyframes appear {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 0.2;
+    }
+}
+
+@keyframes drift {
+    from{
+        transform: translateX(-35vw);
+    }
+    to{
+        transform: translateX(35vw);
+    }
+}
+
+@keyframes drift2 {
+    from{
+        transform: translateX(-35vw);
+    }
+    to{
+        transform: translateX(5vw);
+    }
+}

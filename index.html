@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+        <link href="static/styles.css" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Roboto+Condensed|Teko|Yanone+Kaffeesatz" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body id="body-id">
+        <div class="container">
+            <div class="cloud-container">
+                <img src="static/raincloud.png" class="clouds" id="cloud">
+                <img src="static/raincloud.png" class="clouds2" id="cloud2">
+            </div>
+            <div class="info">
+                <header>
+                    <h1 class="text" id="weather-header">UK Weather App</h1>
+                </header>
+                <div>
+                    <div id="img-container">
+                        <div class="border" id="weather-icon">
+                            <img class="weather-img">
+                        </div>
+                    </div>
+                    <p class="text" id="welcome">Enter the name of a UK city or town into the search bar to receive an instant update on the local weather.</p>
+                    <div class="date-time">
+                        <h1 id="time"></h1>
+                        <p class="text" id="date"></p>
+                    </div>
+                </div>
+                <div class="search-box">
+                    <form id="locationForm">
+                        <input type="text" name="location" placeholder="Show me the weather in..." id="searchLocation" autocomplete="off"><button type="button" id="button"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="weather-div" id="weather-div">
+                    <p class="city text" id="refresh"></p>
+                    <p class="text" id="refresh">Conditions: <span class="weather-desc"></span></p>
+                    <p class="text" id="refresh">Temperature: <span class="temp"></span>°C</p>
+                    <p class="text" id="refresh">Humidity: <span class="humidity"></span>%</p>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="static/custom.js"></script>
+    </body>
+</html>
