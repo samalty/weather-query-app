@@ -62,8 +62,8 @@ body{
         margin-left: 0px;
     }
     .weather-div{
-        display: relative;
-        margin-top: 800px;
+        display: absolute;
+        bottom: 0;
         transform: scale(1.6);
         width: 50%;
         margin: auto;
