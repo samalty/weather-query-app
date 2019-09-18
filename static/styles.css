@@ -110,7 +110,7 @@ p{
     .weather-desc,
     .temp,
     .humidity{
-        transform: scale(2.3);
+        transform: scale(2.1);
     }
 }
 
