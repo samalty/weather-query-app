@@ -10,16 +10,12 @@ body{
 }
 .container{
     text-align: center;
-    width: 100vw;
     height: 100vh;
     position: relative;
-    border: 2px solid black;
 }
 .welcome-container{
     text-align: center;
-    width: 100%;
     padding: 0px 20px;
-    border: 2px solid black;
 }
 
 .disable {
@@ -29,8 +25,6 @@ body{
     display: none;
     margin-top: 25px;
     padding: 0px 30px;
-    border: 2px solid black;
-    width: 100%;
 }
 .weather-desc{
     text-transform: capitalize;
@@ -43,24 +37,18 @@ body{
     margin-left: -200px;
     z-index: 100;
     animation: rise 1s linear, fadeIn .2s ease-in;
-    border: 2px solid yellow;
 }
 
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 2){
-    .container{
-        max-width: 100vw;
-    }
     .welcome-container{
         margin: 120px 0px;
     }
     .info{
         width: 100%;
         height: 100%;
-        left: 0%;
-        margin-left: 0px;
     }
     .weather-div{
         transform: scale(1.8);
@@ -169,7 +157,6 @@ p{
     text-align: center;
     width: 80px;
     height: 80px;
-    background-color: #ffffff;
     border-radius: 50%;
 }
 .weather-img{
@@ -186,11 +173,6 @@ p{
   and (-webkit-min-device-pixel-ratio: 2){
     #img-container{
         margin: 50px;
-    }
-    .weather-img{
-        height: 160px;
-        width: 160px;
-        margin: auto;
     }
     .border{
         display: none;
@@ -236,10 +218,6 @@ p{
 }
 .search-box{
     display: block;
-}
-
-#locationForm{
-    border: 2px solid blue;
 }
 
 @media only screen 
