@@ -119,6 +119,9 @@ p{
     .humidity{
         transform: scale(2.0);
     }
+    #date{
+        margin-top: 120px;
+    }
 }
 
 /* Weather icon */
@@ -153,6 +156,10 @@ p{
     .weather-img{
         height: 160px;
         width: 160px;
+        margin: auto;
+    }
+    .border{
+        display: none;
     }
 }
 
@@ -216,7 +223,7 @@ p{
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 2){
     #time{
-        margin-top: 180px;
+        margin-top: 210px;
     }
 }
 
