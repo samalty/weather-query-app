@@ -120,7 +120,14 @@ p{
         transform: scale(2.0);
     }
     #date{
-        margin-top: 120px;
+        margin-top: 30px;
+    }
+    #welcome{
+        margin-top: 40px;
+    }
+    #weather-header{
+        transform: scale(3.0);
+        margin: 60px;
     }
 }
 
@@ -146,10 +153,6 @@ p{
   and (min-device-width: 320px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 2){
-    #weather-header{
-        transform: scale(3.0);
-        margin: 60px;
-    }
     #img-container{
         margin: 50px;
     }
@@ -223,7 +226,7 @@ p{
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 2){
     #time{
-        margin-top: 210px;
+        margin-top: 300px;
     }
 }
 
