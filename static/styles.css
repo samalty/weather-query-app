@@ -211,6 +211,15 @@ p{
     background: linear-gradient(#ffffff,#e6e6e6);
 }
 
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2){
+    #time{
+        margin-top: 120px;
+    }
+}
+
 /* Clouds */
 
 .cloud-container{
