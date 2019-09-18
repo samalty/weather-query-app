@@ -218,14 +218,14 @@ p{
         margin-top: 180px;
     }
     #searchLocation{
-        width: 64vw;
-        font-size: 40px;
-        padding: 20px;
+        width: 375px;
+        font-size: 30px;
+        padding: 15px;
     }
     #button{
-        width: 16vw;
-        font-size: 40px;
-        padding: 20px;
+        width: 75px;
+        font-size: 30px;
+        padding: 15px;
     }
 }
 
@@ -248,7 +248,7 @@ p{
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 2){
     #time{
-        margin: 200px 0px;
+        margin-top: 240px;
     }
 }
 
