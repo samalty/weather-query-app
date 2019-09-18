@@ -61,11 +61,8 @@ body{
         height: 100%;
         left: 0%;
         margin-left: 0px;
-        position: relative;
     }
     .weather-div{
-        display: absolute;
-        bottom: 10px;
         transform: scale(1.6);
         width: 50%;
         margin: auto;
