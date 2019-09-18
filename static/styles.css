@@ -37,6 +37,8 @@ body{
     display: none;
     margin: 25px;
     text-align: center;
+    border: 2px solid black;
+    width: 100%;
 }
 .weather-desc{
     text-transform: capitalize;
