@@ -155,9 +155,11 @@ function searchLocation(){
         if (data.weather[0].description.indexOf("clouds") >= 0){
             document.getElementById('cloud').classList.remove('disappear');
             document.getElementById('cloud2').classList.remove('disappear');
+            document.getElementById('cloud3').classList.remove('disappear');
         } else {
             document.getElementById('cloud').classList.add('disappear');
             document.getElementById('cloud2').classList.add('disappear');
+            document.getElementById('cloud3').classList.add('disappear');
         }
     });
 }
