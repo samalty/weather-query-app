@@ -22,6 +22,9 @@ body{
         max-width: 100vw;
         border: 2px solid black;
     }
+    body{
+        border: 2px solid black;
+    }
 }
 .disable {
     pointer-events: none;
@@ -50,6 +53,9 @@ body{
     .info{
         max-width: 100vw;
         padding: 0px 15px;
+    }
+    .weather-div{
+        margin-top: 100px;
     }
 }
 
@@ -114,6 +120,7 @@ p{
     #date,
     #searchLocation,
     #button,
+    .text,
     .fa-search,
     .weather-desc,
     .temp,
