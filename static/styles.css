@@ -63,7 +63,7 @@ body{
         margin-left: 0px;
     }
     .weather-div{
-        transform: scale(1.6);
+        transform: scale(1.8);
         width: 50%;
         margin: auto;
     }
@@ -262,6 +262,9 @@ p{
         font-size: 26px;
         float: right;
         margin-right: 100px;
+    }
+    .fa{
+        font-size: 22px;
     }
 
 }
