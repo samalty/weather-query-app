@@ -217,6 +217,7 @@ p{
     .search-box{
         margin-top: 180px;
         border: 2px solid black;
+        width: 100%;
     }
     #searchLocation{
         width: 260px;
@@ -227,7 +228,7 @@ p{
         width: 65px;
         font-size: 26px;
         padding: 13px;
-        margin-left: 18px;
+        margin-left: 16px;
     }
 }
 
