@@ -43,7 +43,7 @@ body{
     margin-left: -200px;
     z-index: 100;
     animation: rise 1s linear, fadeIn .2s ease-in;
-    border: 2px solid black;
+    border: 2px solid yellow;
 }
 
 @media only screen 
@@ -64,7 +64,7 @@ body{
     }
     .weather-div{
         display: absolute;
-        bottom: 0;
+        bottom: 10px;
         transform: scale(1.6);
         width: 50%;
         margin: auto;
