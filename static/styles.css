@@ -123,7 +123,8 @@ p{
         margin-top: 30px;
     }
     #welcome{
-        margin-top: 40px;
+        transform: scale(2.5);
+        margin-top: 80px;
     }
     #weather-header{
         transform: scale(3.0);
@@ -226,7 +227,7 @@ p{
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 2){
     #time{
-        margin-top: 300px;
+        margin-top: 200px;
     }
 }
 
