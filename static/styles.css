@@ -100,13 +100,16 @@ h1, p{
     font-family: 'Teko', sans-serif;
 }
 p{
-    font-size: 26px
+    font-size: 20px
 }
 #weather-header{
     margin: 20px;
 }
 .city{
     font-size: 32px;
+}
+.text{
+    font-size: 26px;
 }
 #refresh{
     animation: letters 0.5s ease-in both;
