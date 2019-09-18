@@ -314,11 +314,6 @@ p{
     animation: appear 2s linear, drift2 75s linear infinite;
 }
 .clouds3{
-    width: 60vw;
-    height: auto;
-    opacity: 0.3;
-    top: 30;
-    left: 20;
     display: none;
 }
 @media only screen 
@@ -326,7 +321,12 @@ p{
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 2){
     .clouds{
+        width: 300px;
+        height: auto;
+        opacity: 0.3;
         display: flex;
+        top: 30px;
+        left: 20px;
     }
 }
 
