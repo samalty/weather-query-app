@@ -313,6 +313,22 @@ p{
     top: 10;
     animation: appear 2s linear, drift2 75s linear infinite;
 }
+.clouds3{
+    width: 60vw;
+    height: auto;
+    opacity: 0.3;
+    top: 30;
+    left: 20;
+    display: none;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2){
+    .clouds{
+        display: flex;
+    }
+}
 
 .disappear{
     display: none;
