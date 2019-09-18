@@ -223,12 +223,14 @@ p{
         width: 250px;
         font-size: 26px;
         padding: 13px;
+        display: inline-block;
     }
     #button{
         width: 65px;
         font-size: 26px;
         padding: 13px;
         right: 0;
+        display: inline-block;
     }
 }
 
