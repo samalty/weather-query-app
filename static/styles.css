@@ -217,6 +217,16 @@ p{
     .search-box{
         margin-top: 180px;
     }
+    #searchLocation{
+        width: 64vw;
+        font-size: 40px;
+        padding: 20px;
+    }
+    #button{
+        width: 16vw;
+        font-size: 40px;
+        padding: 20px;
+    }
 }
 
 /* Clock */
@@ -238,7 +248,7 @@ p{
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 2){
     #time{
-        margin-top: 200px;
+        margin: 200px 0px;
     }
 }
 
