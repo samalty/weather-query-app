@@ -222,7 +222,7 @@ p{
     #searchLocation{
         width: 250px;
         font-size: 26px;
-        padding: 13px;
+        right: 0;
     }
     #button{
         width: 65px;
