@@ -226,7 +226,7 @@ p{
         width: 65px;
         font-size: 26px;
         padding: 13px;
-        margin-left: 15px;
+        margin-left: 80px;
     }
 }
 
@@ -262,14 +262,14 @@ p{
 .clouds{
     width: auto;
     height: 70vh;
-    opacity: 0.2;
+    opacity: 0.3;
     display: flex;
     animation: appear 2s linear, drift 60s linear infinite;
 }
 .clouds2{
     width: auto;
     height: 40vh;
-    opacity: 0.2;
+    opacity: 0.3;
     display: flex;
     top: 10;
     animation: appear 2s linear, drift2 75s linear infinite;
@@ -284,7 +284,7 @@ p{
         opacity: 0;
     }
     to{
-        opacity: 0.2;
+        opacity: 0.3;
     }
 }
 
