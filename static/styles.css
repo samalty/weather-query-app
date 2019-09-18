@@ -139,7 +139,8 @@ p{
         margin: 50px 0px;
 
     }
-    #welcome{
+    #welcome,
+    #welcome2{
         transform: scale(2.5);
     }
     #weather-header{
@@ -225,7 +226,7 @@ p{
 }
 
 #locationForm{
-    border: 2px solid black;
+    border: 2px solid blue;
 }
 
 @media only screen 
@@ -234,19 +235,20 @@ p{
   and (-webkit-min-device-pixel-ratio: 2){
     .search-box{
         margin-top: 180px;
-        border: 2px solid black;
+        border: 2px solid red;
         width: 100%;
     }
     #searchLocation{
         width: 250px;
         font-size: 26px;
         float: left;
-        margin-left: 30px;
+        margin-left: 140px;
     }
     #button{
         width: 65px;
         font-size: 26px;
         float: right;
+        margin-right: 100px;
     }
 }
 
