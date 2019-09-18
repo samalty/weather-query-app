@@ -29,6 +29,9 @@ body{
     .container{
         max-width: 100vw;
     }
+    .welcome-container{
+        margin: 120px 0px;
+    }
 }
 .disable {
     pointer-events: none;
@@ -139,7 +142,6 @@ p{
     }
     #welcome{
         transform: scale(2.5);
-        margin: 120px 0px;
     }
     #weather-header{
         transform: scale(3.0);
