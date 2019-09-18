@@ -49,6 +49,7 @@ body{
   and (-webkit-min-device-pixel-ratio: 2){
     .info{
         max-width: 100vw;
+        padding: 0px 50px;
     }
 }
 
@@ -120,7 +121,8 @@ p{
         transform: scale(2.0);
     }
     #date{
-        margin-top: 30px;
+        margin-top: 80px;
+
     }
     #welcome{
         transform: scale(2.5);
@@ -206,6 +208,15 @@ p{
 }
 .search-box{
     display: block;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2){
+    .search-box{
+        margin-top: 180px;
+    }
 }
 
 /* Clock */
