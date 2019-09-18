@@ -62,7 +62,10 @@ body{
         margin-left: 0px;
     }
     .weather-div{
-        margin-top: 100px;
+        margin-top: 150px;
+        transform: scale(2.0);
+        width: 50%;
+        margin: auto;
     }
 }
 
@@ -145,9 +148,6 @@ p{
     #weather-header{
         transform: scale(3.0);
         margin: 60px;
-    }
-    .weather-div{
-        transform: scale(3.0);
     }
 }
 
