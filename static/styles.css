@@ -106,7 +106,6 @@ p{
   and (min-device-width: 320px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 2){
-    h1,
     p,
     .weather-img,
     .date-time,
@@ -145,7 +144,8 @@ p{
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 2){
     #weather-header{
-        margin: 40px;
+        transform: scale(3.0);
+        margin: 60px;
     }
     #img-container{
         margin: 50px;
@@ -216,7 +216,7 @@ p{
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 2){
     #time{
-        margin-top: 120px;
+        margin-top: 180px;
     }
 }
 
