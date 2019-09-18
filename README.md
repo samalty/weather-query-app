@@ -21,7 +21,8 @@ conditions in the specified location.
 ## Technologies used
 
 - JavaScript
-	- **JavaScript** was used for all interactive elements of the application, primarily the search query function
+	- **JavaScript** was used for all interactive elements of the application, primarily the 
+	search query function and several dynamic CSS features
 - jQuery
 	- **jQuery** was used to make the API call, as well as helping to simplify various other pieces of functionality 
 - HTML
