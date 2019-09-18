@@ -62,8 +62,9 @@ body{
         margin-left: 0px;
     }
     .weather-div{
-        margin-top: 300px;
-        transform: scale(2.0);
+        display: relative;
+        margin-top: 500px;
+        transform: scale(1.6);
         width: 50%;
         margin: auto;
     }
@@ -99,13 +100,13 @@ h1, p{
     font-family: 'Teko', sans-serif;
 }
 p{
-    font-size: 20px
+    font-size: 26px
 }
 #weather-header{
     margin: 20px;
 }
 .city{
-    font-size: 28px;
+    font-size: 32px;
 }
 #refresh{
     animation: letters 0.5s ease-in both;
