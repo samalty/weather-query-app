@@ -241,6 +241,7 @@ p{
         width: 250px;
         font-size: 26px;
         float: left;
+        margin-left: 30px;
     }
     #button{
         width: 65px;
