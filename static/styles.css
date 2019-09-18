@@ -146,6 +146,9 @@ p{
         transform: scale(3.0);
         margin: 60px;
     }
+    #refresh{
+        transform: scale(3.0);
+    }
 }
 
 /* Weather icon */
