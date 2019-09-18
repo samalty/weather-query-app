@@ -127,6 +127,7 @@ function searchLocation(){
     $("#img-container").slideDown(500);
     $("#weather-div").slideDown(500);
     document.getElementById("welcome").style.display = "none";
+    document.getElementById("welcome2").style.display = "none";
     document.getElementById("weather-div").style.display = "inline-block";
     
     var location = document.getElementById("searchLocation").value;
