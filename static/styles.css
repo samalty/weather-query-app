@@ -93,6 +93,26 @@ p{
     }
 }
 
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2){
+    h1,
+    p,
+    .weather-img,
+    .date-time,
+    #time,
+    #date,
+    #searchLocation,
+    #button,
+    .fa-search,
+    .weather-desc,
+    .temp,
+    .humidity{
+        transform: scale(2.0);
+    }
+}
+
 /* Weather icon */
 
 .border{
