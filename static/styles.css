@@ -22,17 +22,6 @@ body{
     border: 2px solid black;
 }
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 2){
-    .container{
-        max-width: 100vw;
-    }
-    .welcome-container{
-        margin: 120px 0px;
-    }
-}
 .disable {
     pointer-events: none;
 }
@@ -61,10 +50,19 @@ body{
   and (min-device-width: 320px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 2){
+    .container{
+        max-width: 100vw;
+    }
+    .welcome-container{
+        margin: 120px 0px;
+    }
     .info{
         width: 100%;
         left: 0%;
         margin-left: 0px;
+    }
+    .weather-div{
+        margin-top: 100px;
     }
 }
 
@@ -132,12 +130,13 @@ p{
     .fa-search,
     .weather-desc,
     .temp,
-    .humidity{
+    .humidity,
+    .city,
+    .text{
         transform: scale(2.0);
     }
     #date{
         margin: 50px 0px;
-
     }
     #welcome,
     #welcome2{
@@ -250,6 +249,7 @@ p{
         float: right;
         margin-right: 100px;
     }
+
 }
 
 /* Clock */
