@@ -218,14 +218,14 @@ p{
         margin-top: 180px;
     }
     #searchLocation{
-        width: 300px;
-        font-size: 30px;
-        padding: 15px;
+        width: 260px;
+        font-size: 26px;
+        padding: 13px;
     }
     #button{
-        width: 75px;
-        font-size: 30px;
-        padding: 15px;
+        width: 65px;
+        font-size: 26px;
+        padding: 13px;
     }
 }
 
