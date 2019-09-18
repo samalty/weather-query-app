@@ -63,7 +63,7 @@ body{
     }
     .weather-div{
         display: relative;
-        margin-top: 500px;
+        margin-top: 800px;
         transform: scale(1.6);
         width: 50%;
         margin: auto;
