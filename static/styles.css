@@ -108,8 +108,8 @@ p{
 .city{
     font-size: 32px;
 }
-.text{
-    font-size: 26px;
+.details{
+    font-size: 24px;
 }
 #refresh{
     animation: letters 0.5s ease-in both;
