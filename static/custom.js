@@ -124,6 +124,7 @@ document.getElementById("button").addEventListener("click", searchLocation);
 
 function searchLocation(){
     
+    // Reveal info
     $("#img-container").slideDown(500);
     $("#weather-div").slideDown(500);
     document.getElementById("welcome").style.display = "none";
