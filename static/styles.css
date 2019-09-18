@@ -114,7 +114,7 @@ p{
     animation: letters 0.5s ease-in both;
 }
 .invisible{
-    font-size: 30px;
+    font-size: 34px;
     display: none;
 }
 @keyframes letters {
