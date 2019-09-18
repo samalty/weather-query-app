@@ -220,7 +220,7 @@ p{
         width: 100%;
     }
     #searchLocation{
-        width: 260px;
+        width: 250px;
         font-size: 26px;
         padding: 13px;
     }
@@ -228,7 +228,7 @@ p{
         width: 65px;
         font-size: 26px;
         padding: 13px;
-        margin-left: 16px;
+        margin-left: 15px;
     }
 }
 
