@@ -146,8 +146,8 @@ p{
         transform: scale(3.0);
         margin: 60px;
     }
-    #refresh{
-        font-size: 50px;
+    .weather-div{
+        transform: scale(3.0);
     }
 }
 
