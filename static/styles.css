@@ -121,12 +121,12 @@ p{
         transform: scale(2.0);
     }
     #date{
-        margin-top: 80px;
+        margin: 50px 0px;
 
     }
     #welcome{
         transform: scale(2.5);
-        margin-top: 80px;
+        margin: 120px 0px;
     }
     #weather-header{
         transform: scale(3.0);
