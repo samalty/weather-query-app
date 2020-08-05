@@ -1,6 +1,6 @@
 # UK Weather App
 
-![](static/weatherapp.PNG)
+![](static/weatherapp.png)
 
 This is a simple application designed to provide the user with instant access to up-to-date 
 weather conditions in a specified UK region, via use of a search bar.
